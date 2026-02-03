@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using TeaSaloon_API.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<TeaSaloonContext>(options => options.UseNpgsql("Host=localhost;Port=5432;" +
+    "Database=TeaSaloonDB;Username=postgres;Password=programmation"));
 
 var app = builder.Build();
 
