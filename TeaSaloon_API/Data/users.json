@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Dupont",
+    "firstName": "Jean",
+    "isManager": true,
+    "email": "jean.dupont@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Martin",
+    "firstName": "Claire",
+    "isManager": false,
+    "email": "claire.martin@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Bernard",
+    "firstName": "Lucas",
+    "isManager": false,
+    "email": "lucas.bernard@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Petit",
+    "firstName": "Emma",
+    "isManager": false,
+    "email": "emma.petit@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Robert",
+    "firstName": "Hugo",
+    "isManager": true,
+    "email": "hugo.robert@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Richard",
+    "firstName": "Léa",
+    "isManager": false,
+    "email": "lea.richard@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Durand",
+    "firstName": "Thomas",
+    "isManager": false,
+    "email": "thomas.durand@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Moreau",
+    "firstName": "Julie",
+    "isManager": false,
+    "email": "julie.moreau@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Simon",
+    "firstName": "Nicolas",
+    "isManager": false,
+    "email": "nicolas.simon@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Laurent",
+    "firstName": "Camille",
+    "isManager": false,
+    "email": "camille.laurent@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Lefebvre",
+    "firstName": "Paul",
+    "isManager": true,
+    "email": "paul.lefebvre@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Michel",
+    "firstName": "Sarah",
+    "isManager": false,
+    "email": "sarah.michel@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Garcia",
+    "firstName": "Antoine",
+    "isManager": false,
+    "email": "antoine.garcia@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "David",
+    "firstName": "Manon",
+    "isManager": false,
+    "email": "manon.david@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Roux",
+    "firstName": "Julien",
+    "isManager": false,
+    "email": "julien.roux@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Vincent",
+    "firstName": "Laura",
+    "isManager": false,
+    "email": "laura.vincent@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Fournier",
+    "firstName": "Maxime",
+    "isManager": false,
+    "email": "maxime.fournier@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Morel",
+    "firstName": "Chloé",
+    "isManager": false,
+    "email": "chloe.morel@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Girard",
+    "firstName": "Alexandre",
+    "isManager": true,
+    "email": "alexandre.girard@teasaloon.com",
+    "password": "Password123!"
+  },
+  {
+    "name": "Andre",
+    "firstName": "Sophie",
+    "isManager": false,
+    "email": "sophie.andre@teasaloon.com",
+    "password": "Password123!"
+  }
+]
+

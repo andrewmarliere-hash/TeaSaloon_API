@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Sugar",
+    "suplementPrice": 0.2,
+    "price": 0.5,
+    "image": "sugar.png"
+  },
+  {
+    "name": "Honey",
+    "suplementPrice": 0.4,
+    "price": 0.8,
+    "image": "honey.png"
+  },
+  {
+    "name": "Milk",
+    "suplementPrice": 0.3,
+    "price": 0.6,
+    "image": "milk.png"
+  },
+  {
+    "name": "Soy Milk",
+    "suplementPrice": 0.4,
+    "price": 0.7,
+    "image": "soy_milk.png"
+  },
+  {
+    "name": "Almond Milk",
+    "suplementPrice": 0.5,
+    "price": 0.9,
+    "image": "almond_milk.png"
+  },
+  {
+    "name": "Lemon",
+    "suplementPrice": 0.2,
+    "price": 0.4,
+    "image": "lemon.png"
+  },
+  {
+    "name": "Mint",
+    "suplementPrice": 0.3,
+    "price": 0.6,
+    "image": "mint.png"
+  },
+  {
+    "name": "Ginger",
+    "suplementPrice": 0.4,
+    "price": 0.7,
+    "image": "ginger.png"
+  },
+  {
+    "name": "Cinnamon",
+    "suplementPrice": 0.3,
+    "price": 0.6,
+    "image": "cinnamon.png"
+  },
+  {
+    "name": "Vanilla",
+    "suplementPrice": 0.5,
+    "price": 1.0,
+    "image": "vanilla.png"
+  },
+  {
+    "name": "Caramel",
+    "suplementPrice": 0.6,
+    "price": 1.1,
+    "image": "caramel.png"
+  },
+  {
+    "name": "Chocolate",
+    "suplementPrice": 0.6,
+    "price": 1.2,
+    "image": "chocolate.png"
+  },
+  {
+    "name": "Whipped Cream",
+    "suplementPrice": 0.5,
+    "price": 1.0,
+    "image": "whipped_cream.png"
+  },
+  {
+    "name": "Orange Peel",
+    "suplementPrice": 0.3,
+    "price": 0.6,
+    "image": "orange_peel.png"
+  },
+  {
+    "name": "Apple Pieces",
+    "suplementPrice": 0.4,
+    "price": 0.8,
+    "image": "apple.png"
+  },
+  {
+    "name": "Peach Pieces",
+    "suplementPrice": 0.4,
+    "price": 0.8,
+    "image": "peach.png"
+  },
+  {
+    "name": "Red Berries",
+    "suplementPrice": 0.6,
+    "price": 1.2,
+    "image": "red_berries.png"
+  },
+  {
+    "name": "Coconut",
+    "suplementPrice": 0.5,
+    "price": 1.0,
+    "image": "coconut.png"
+  },
+  {
+    "name": "Lavender",
+    "suplementPrice": 0.3,
+    "price": 0.6,
+    "image": "lavender.png"
+  },
+  {
+    "name": "Matcha Powder",
+    "suplementPrice": 0.7,
+    "price": 1.5,
+    "image": "matcha.png"
+  }
+]
+
