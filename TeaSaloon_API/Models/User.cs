@@ -25,5 +25,8 @@ namespace TeaSaloon_API.Models
 
         [Required]
         public string Password { get; set; }
+
+        public ICollection<Order> Orders { get; set; } = new List<Order>();
+
     }
 }

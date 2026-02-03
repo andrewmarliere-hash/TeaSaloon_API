@@ -21,5 +21,8 @@ namespace TeaSaloon_API.Models
         public double Price { get; set; }
 
         public string Image { get; set; }
+
+        public ICollection<Tea> Teas { get; set; } = new List<Tea>();
+
     }
 }

@@ -13,8 +13,15 @@ namespace TeaSaloon_API.Models
         public int Quantity { get; set; }
         
         
-        public Product ProductID { get; set; }
-        [ForeignKey(ProductID)]
+        public int ProductID { get; set; }
+
+        [ForeignKey("ProductID")]
+        public Product OrderedProduct { get; set; }
+
+        public int OrderID { get; set; }
+        [ForeignKey("OrderID")]
+
+        public Order Order {  get; set; }
 
     }
 }

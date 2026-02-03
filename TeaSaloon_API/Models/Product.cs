@@ -17,5 +17,10 @@ namespace TeaSaloon_API.Models
         public string Name { get; set; }
         public string Image { get; set; }
 
+        public ICollection<OrderLine> OrderLines { get; set; } = new List<OrderLine>();
+        public ICollection<Category> Categories { get; set; } = new List<Category>();
+
+
+
     }
 }
