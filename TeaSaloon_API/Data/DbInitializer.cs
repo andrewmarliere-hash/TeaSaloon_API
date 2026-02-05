@@ -21,8 +21,13 @@ namespace PokIspoBowl_API.Data
 
             ReadFakeCategories(context, logger);
 
+            ReadFakeProducts(context, logger);
+
+            ReadFakeTeas(context, logger);
 
         }
+
+        
 
         private static void ReadFakeIngredients(TeaSaloonContext context, ILogger logger)
         {
@@ -161,6 +166,101 @@ namespace PokIspoBowl_API.Data
                 logger.LogError("Erreur lors de la lecture du fichier JSON... " + ex.Message);
             }
         }
+
+        private static void ReadFakeProducts(TeaSaloonContext context, ILogger logger)
+        {
+            // Vérifier s'il n'y a pas déjà des produits dans la DB
+            if (context.Products.Any())
+            {
+                logger.LogInformation("La base de donnée contient déjà des produits...");
+                return;
+            }
+
+            // On va chercher le chemin vers le fichier JSON
+            // Path.Combine() permet de combiner plusieurs strings en un seul chemin
+            // AppContext.BaseDirectory permet de retrouver le répertoire de base de l'application
+            string jsonFilePath = Path.Combine(AppContext.BaseDirectory, "Data", "products.json");
+
+            if (!File.Exists(jsonFilePath))
+            {
+                logger.LogError("Le fichier products.json est introuvable...");
+                return;
+            }
+
+            try
+            {
+                // On lit le fichier JSON
+                string jsonData = File.ReadAllText(jsonFilePath);
+
+                List<Product>? products = JsonSerializer.Deserialize<List<Product>>(
+                    jsonData,
+                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
+                );
+
+                if (products != null && products.Count > 0)
+                {
+                    context.Products.AddRange(products);
+                    context.SaveChanges();
+                    logger.LogInformation($"{products.Count} produits ont été ajoutés dans la table Products");
+                }
+                else
+                {
+                    logger.LogWarning("Aucun produit détecté dans le fichier products.json");
+                }
+            }
+            catch (Exception ex)
+            {
+                logger.LogError("Erreur lors de la lecture du fichier JSON... " + ex.Message);
+            }
+        }
+
+        private static void ReadFakeTeas(TeaSaloonContext context, ILogger logger)
+        {
+            // Vérifier s'il n'y a pas déjà des Teas dans la DB
+            if (context.Teas.Any())
+            {
+                logger.LogInformation("La base de donnée contient déjà des teas...");
+                return;
+            }
+
+            // On va chercher le chemin vers le fichier JSON
+            // Path.Combine() permet de combiner plusieurs strings en un seul chemin
+            // AppContext.BaseDirectory permet de retrouver le répertoire de base de l'application
+            string jsonFilePath = Path.Combine(AppContext.BaseDirectory, "Data", "teas.json");
+
+            if (!File.Exists(jsonFilePath))
+            {
+                logger.LogError("Le fichier teas.json est introuvable...");
+                return;
+            }
+
+            try
+            {
+                // On lit le fichier JSON
+                string jsonData = File.ReadAllText(jsonFilePath);
+
+                List<Tea>? teas = JsonSerializer.Deserialize<List<Tea>>(
+                    jsonData,
+                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
+                );
+
+                if (teas != null && teas.Count > 0)
+                {
+                    context.Teas.AddRange(teas);
+                    context.SaveChanges();
+                    logger.LogInformation($"{teas.Count} teas ont été ajoutés dans la table Teas");
+                }
+                else
+                {
+                    logger.LogWarning("Aucun tea détecté dans le fichier teas.json");
+                }
+            }
+            catch (Exception ex)
+            {
+                logger.LogError("Erreur lors de la lecture du fichier JSON... " + ex.Message);
+            }
+        }
+
 
     }
 }

@@ -1,0 +1,103 @@
+[
+  {
+    "price": 4.5,
+    "name": "Muffin Chocolat",
+    "image": "muffin-chocolat.jpg"
+  },
+  {
+    "price": 5.2,
+    "name": "Cheesecake Fraise",
+    "image": "cheesecake-fraise.jpg"
+  },
+  {
+    "price": 6.0,
+    "name": "Tarte au Citron",
+    "image": "tarte-citron.jpg"
+  },
+  {
+    "price": 3.8,
+    "name": "Brownie",
+    "image": "brownie.jpg"
+  },
+  {
+    "price": 4.0,
+    "name": "Cookie Noix de Pécan",
+    "image": "cookie-pecan.jpg"
+  },
+  {
+    "price": 5.5,
+    "name": "Crème Brûlée",
+    "image": "creme-brulee.jpg"
+  },
+  {
+    "price": 6.2,
+    "name": "Panna Cotta Vanille",
+    "image": "panna-cotta.jpg"
+  },
+  {
+    "price": 4.8,
+    "name": "Tiramisu",
+    "image": "tiramisu.jpg"
+  },
+  {
+    "price": 3.9,
+    "name": "Donut Glacé",
+    "image": "donut.jpg"
+  },
+  {
+    "price": 4.7,
+    "name": "Macaron Framboise",
+    "image": "macaron-framboise.jpg"
+  },
+
+  {
+    "price": 2.5,
+    "name": "Café Expresso",
+    "image": "cafe-expresso.jpg"
+  },
+  {
+    "price": 3.0,
+    "name": "Cappuccino",
+    "image": "cappuccino.jpg"
+  },
+  {
+    "price": 3.5,
+    "name": "Latte Macchiato",
+    "image": "latte-macchiato.jpg"
+  },
+  {
+    "price": 2.8,
+    "name": "Chocolat Chaud",
+    "image": "chocolat-chaud.jpg"
+  },
+  {
+    "price": 3.2,
+    "name": "Smoothie Mangue",
+    "image": "smoothie-mangue.jpg"
+  },
+  {
+    "price": 3.4,
+    "name": "Jus d'Orange Frais",
+    "image": "jus-orange.jpg"
+  },
+  {
+    "price": 2.9,
+    "name": "Thé Glacé Pêche",
+    "image": "the-glace-peche.jpg"
+  },
+  {
+    "price": 3.6,
+    "name": "Milkshake Vanille",
+    "image": "milkshake-vanille.jpg"
+  },
+  {
+    "price": 4.0,
+    "name": "Limonade Maison",
+    "image": "limonade.jpg"
+  },
+  {
+    "price": 3.8,
+    "name": "Smoothie Fraise-Banane",
+    "image": "smoothie-fraise-banane.jpg"
+  }
+]

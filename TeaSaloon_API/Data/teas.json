@@ -1,0 +1,145 @@
+[
+  {
+    "price": 4.5,
+    "name": "Thé Vert Sencha",
+    "image": "sencha.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 5.2,
+    "name": "Thé Noir Assam",
+    "image": "assam.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 6.0,
+    "name": "Thé Blanc Pai Mu Tan",
+    "image": "pai-mu-tan.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 6.8,
+    "name": "Thé Vert Menthe",
+    "image": "menthe.jpg",
+    "isPreSet": true,
+    "isIced": false
+  },
+  {
+    "price": 7.5,
+    "name": "Thé Oolong",
+    "image": "oolong.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 5.9,
+    "name": "Thé Noir Fruits Rouges",
+    "image": "fruits-rouges.jpg",
+    "isPreSet": true,
+    "isIced": false
+  },
+  {
+    "price": 6.3,
+    "name": "Thé Chai Épicé",
+    "image": "chai.jpg",
+    "isPreSet": true,
+    "isIced": false
+  },
+  {
+    "price": 4.8,
+    "name": "Rooibos Vanille",
+    "image": "rooibos-vanille.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 7.0,
+    "name": "Thé Vert Jasmin",
+    "image": "jasmin.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 8.5,
+    "name": "Matcha Cérémonial",
+    "image": "matcha.jpg",
+    "isPreSet": true,
+    "isIced": false
+  },
+
+  {
+    "price": 5.5,
+    "name": "Thé Noir Citron Glacé",
+    "image": "citron-glace.jpg",
+    "isPreSet": true,
+    "isIced": true
+  },
+  {
+    "price": 5.7,
+    "name": "Thé Vert Pêche Glacé",
+    "image": "peche-glace.jpg",
+    "isPreSet": true,
+    "isIced": true
+  },
+  {
+    "price": 5.9,
+    "name": "Thé Vert Mangue Glacé",
+    "image": "mangue-glace.jpg",
+    "isPreSet": true,
+    "isIced": true
+  },
+  {
+    "price": 6.1,
+    "name": "Thé Noir Framboise Glacé",
+    "image": "framboise-glace.jpg",
+    "isPreSet": true,
+    "isIced": true
+  },
+  {
+    "price": 6.0,
+    "name": "Thé Blanc Pêche Glacé",
+    "image": "blanc-peche-glace.jpg",
+    "isPreSet": true,
+    "isIced": true
+  },
+
+  {
+    "price": 6.4,
+    "name": "Thé Vert Bio",
+    "image": "the-vert-bio.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 6.9,
+    "name": "Thé Oolong Fleur d'Oranger",
+    "image": "oolong-fleur.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 5.0,
+    "name": "Thé Noir Ceylan",
+    "image": "ceylan.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 4.9,
+    "name": "Thé Blanc Nature",
+    "image": "tea-blanc.jpg",
+    "isPreSet": false,
+    "isIced": false
+  },
+  {
+    "price": 7.2,
+    "name": "Thé Vert Gingembre Citron",
+    "image": "gingembre-citron.jpg",
+    "isPreSet": true,
+    "isIced": false
+  }
+]
+
